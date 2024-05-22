@@ -8,12 +8,12 @@ require("@nomiclabs/hardhat-ethers");
 const { PRIVATE_KEY } = process.env;
 
 module.exports = {
-	solidity: "0.8.11",
+	solidity: "0.8.0",
 	networks: {
 		hardhat: {},
 
       "lisk-sepolia": {
-			url: "https://rpc.sepolia-api.lisk.com",
+			url: 'https://rpc.sepolia-api.lisk.com',
 			accounts: [`0x${PRIVATE_KEY}`],
 			gasPrice: 1000000000,
 		},

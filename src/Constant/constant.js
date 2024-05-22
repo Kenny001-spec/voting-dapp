@@ -1,4 +1,4 @@
-const contractAddress = "0x6233d19C2532F25A34e348F5ab9f04b371f76333";
+const contractAddress = "0x78BB816F488690a8B6F1fa2Cc5728b36b7E8C757";
 
 const contractAbi =  [
   {
@@ -164,5 +164,4 @@ const contractAbi =  [
     "type": "function"
   }
 ]
-
 export {contractAbi, contractAddress};
